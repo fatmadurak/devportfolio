@@ -1,18 +1,29 @@
 
-.btn{
 
-cursor: pointer;
-outline: none;
+    .btn-rounded-white {
+        display: inline-block;
+        color: $txt-color-darkblue;
+        background-color: transparent;
+        padding: 1rem 2rem;
+        border: 0.1875rem solid $txt-color-white;
+        border-radius: 1.875rem;
+        font-size: $font-size-t4;
+        font-weight: $font-weight-900;
+        transition: backgrund-color ease-in .1s;
+        text-decoration: underline;
 
-}
+        &:hover{
+
+       background-color: $txt-color-white;
+       color: $txt-color-darkblue;
+       
 
 
-.btn-rounded-white{
-
-
-    color: $txt-color-white;
+        }
 
 
 
+      }
 
-}
+
+
