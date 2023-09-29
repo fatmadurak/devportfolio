@@ -3,7 +3,7 @@
 }
 
 .t2 {
-  @include font-properties($font-size-t2, $font-weight-300);
+  @include font-properties($font-size-t2, $font-weight-400);
 }
 .t3 {
   @include font-properties($font-size-t3, $font-weight-300);
