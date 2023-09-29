@@ -17,6 +17,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
+    box-sizing: border-box;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -35,6 +36,10 @@ ol, ul {
 blockquote, q {
 	quotes: none;
 }
+
+ ul li a {
+text-decoration: none;
+}
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
@@ -43,4 +48,23 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+
+
+
+html{
+
+font-size: 100%;
+
+}
+
+
+body{
+
+
+font-family: $font-family;
+font-weight: $font-weight-300;
+line-height: 1.5;
+
 }

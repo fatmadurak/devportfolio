@@ -30,6 +30,7 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
+  box-sizing: border-box;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -53,6 +54,10 @@ blockquote, q {
   quotes: none;
 }
 
+ul li a {
+  text-decoration: none;
+}
+
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: "";
@@ -62,6 +67,16 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
 }
 
 .t1 {
@@ -86,13 +101,16 @@ table {
 
 /*components*/
 /*layout*/
+.header {
+  width: 100%;
+}
 .header .navigation {
-  width: 25%;
+  max-width: 64rem;
+  width: 100%;
   height: 7vh;
-  background-color: red;
 }
 .header .navigation__list {
-  width: 90%;
+  width: 50%;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   background-color: #fff;
   padding: 0 2rem;
@@ -101,6 +119,7 @@ table {
 .header .navigation__link {
   font-size: 1rem;
   color: #337ab7;
+  font-weight: 700;
 }
 
 /*pages*//*# sourceMappingURL=style.css.map */
