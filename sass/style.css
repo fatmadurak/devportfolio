@@ -132,8 +132,10 @@ body {
 /*layout*/
 .header {
   width: 100%;
+  position: absolute;
 }
 .header .navigation {
+  z-index: 1;
   max-width: 64rem;
   width: 100%;
   height: 7vh;
@@ -143,6 +145,7 @@ body {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   background-color: #fff;
   padding: 0 2rem;
+  border-radius: 0 0 0.5rem 0.5rem;
   align-items: center;
   transition: all ease-in-out 0.3s;
 }
@@ -160,21 +163,15 @@ body {
 /*pages*/
 /*Hero section page*/
 .hero-section {
-  position: absolute;
-  left: 0;
-  top: 0;
+  position: relative;
   width: 100%;
   height: 100vh;
-  z-index: -1;
   background-image: url("../../images/hero-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   align-items: center;
 }
 .hero-section__hero-content {
-  position: absolute;
-  left: 0;
-  top: 0;
   width: 100%;
   height: 100vh;
   background-color: rgba(33, 125, 187, 0.8);
@@ -198,8 +195,8 @@ body {
 }
 .hero-section__icon {
   display: block;
-  position: fixed;
-  bottom: 2%;
+  position: absolute;
+  bottom: -170%;
   left: 50%;
   font-size: 3rem;
   color: #fff;
