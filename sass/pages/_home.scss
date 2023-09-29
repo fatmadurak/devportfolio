@@ -103,21 +103,86 @@
 
   &__bottom {
 
+    background-color:#f2f2f5;
+    flex: 0 70%;
+    width: 100%;
+
 
   &__bottom-wrapper{
 
-
+    @extend %flexJustifyCenter;
+   background-color: red;
 
 
   }
 
   &__bottom-wrapper{
+
+
+
+  }
+
+  &__wrapper{
+
+    background-color: red;
+
+  }
+  
+  &__wrapper-left{
+
+
+
+  }
+
+  &__wrapper-left-p{
+
+width: 20%;
+
+  }
+
+  &__wrapper-center{
+
+  
+
+
+  }
+
+  &__wrapper-divider{
+
+   
+
+
+  }
+  
+  &__wrapper-right{
 
 
     
+
   }
-  
-  
+
+  &__wrapper-experience{
+
+
+  }
+
+  &____wrapper-right-h3{
+
+width: 20%;
+
+  }
+
+  &__wrapper-right-h4{
+
+ width: 20%;
+
+  }
+
+  &__wrapper-right-p{
+
+width: 20%;
+
+  }
 
 
 
