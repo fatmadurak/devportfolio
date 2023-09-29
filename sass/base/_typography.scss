@@ -1,0 +1,14 @@
+.t1 {
+  @include font-properties($font-size-t1, $font-weight-900);
+}
+
+.t2 {
+  @include font-properties($font-size-t2, $font-weight-300);
+}
+.t3 {
+  @include font-properties($font-size-t3, $font-weight-300);
+}
+
+.t4 {
+  @include font-properties($font-size-t4, $font-weight-300);
+}
