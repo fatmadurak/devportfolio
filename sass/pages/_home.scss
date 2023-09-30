@@ -1,15 +1,11 @@
 /*heding*/
 
-
 .section-heading {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color:  rgb(116, 128, 138);
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(116, 128, 138);
 }
-
 
 /*Hero section page end*/
 .hero-section {
@@ -67,20 +63,16 @@
 
 /*about-section page start*/
 .about-section {
-  
-
   width: 100%;
   height: 100vh;
   @extend %flexAlignCenter;
   flex-direction: column;
 
   &__top {
- 
     flex: 0 40%;
     padding: 5rem;
     @extend %flexJustifyCenter;
     align-items: center;
-  
   }
 
   &__top-wrapper {
@@ -89,178 +81,147 @@
   }
 
   &__top-heading {
-
- color:  rgb(116, 128, 138);
-  justify-self: flex-start;
-    
-
+    color: rgb(116, 128, 138);
+    justify-self: flex-start;
   }
 
   &__top-text {
     flex: 0 50%;
     line-height: 1.4286rem;
-    color:  rgb(116, 128, 138);
+    color: rgb(116, 128, 138);
     text-align: justify;
     font-weight: $font-weight-400;
-   
   }
 
   &__bottom {
-  padding-top: 3rem;
-    background-color:#f2f2f5;
+    padding-top: 3rem;
+    background-color: #f2f2f5;
     flex: 0 60%;
     width: 100%;
     display: flex;
-    justify-content:center ;
-
-
-}
-
-&__bottom-wrapper{
-
-  padding-bottom: 5rem;
-
-  width: 60%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-}
-
-
-
-
-&__wrapper{
- 
-  flex: 0 70%;
-  width: 100%;
-  display: flex;
-  gap:4rem;
-
-
-}
-
-
-&__wrapper-left{
-
-  width: 50%;
-  margin-top: 2.5rem;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-
-
-}
-&__wrapper-center{
-
-  margin-top: 3rem;
-  width: 1rem;
-  height: 90%;
-  background-color:$txt-color-darkblue;
-
-
-
- 
-
-
-}
-&__wrapper-divider{
-
-  height: 100%;
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-align-items: center;
-
-}
-
-
-
-&__wrapper-divider span{
-
-  display: inline-block;
-  background-color: $txt-color-darkblue;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 100%;
-
-  
-  
+    justify-content: center;
   }
 
+  &__bottom-wrapper {
+    padding-bottom: 5rem;
 
-&__wrapper-right{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
 
+  &__wrapper {
+    flex: 0 70%;
+    width: 100%;
+    display: flex;
+    gap: 4rem;
+  }
 
-display: flex;
-flex-direction: column;
-padding-top: 4rem;
+  &__wrapper-left {
+    width: 50%;
+    margin-top: 2.5rem;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  &__wrapper-center {
+    margin-top: 3rem;
+    width: 1rem;
+    height: 90%;
+    background-color: $txt-color-darkblue;
+  }
+  &__wrapper-divider {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
 
+  &__wrapper-divider span {
+    display: inline-block;
+    background-color: $txt-color-darkblue;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+  }
 
-}
+  &__wrapper-right {
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+  }
 
+  &__wrapper-experience {
+    width: 90%;
 
-&__wrapper-experience{
-
-  width: 90%;
-
-  border: 1px solid #e6e6e6;
-  padding: 1rem;
-  border-radius: .3125rem;
-  background-color: $txt-color-white;
-  display: flex;
-  flex-direction: column;
-  gap:.5rem;
-  margin-top: 5rem;
-
- 
-
-}
-&__wrapper-right-p{
-
-  line-height: 1.4286rem;
-  color:  rgb(116, 128, 138);
-  text-align: justify;
-  font-weight: $font-weight-400;
- 
-   }
-
-
-
-
+    border: 1px solid #e6e6e6;
+    padding: 1rem;
+    border-radius: 0.3125rem;
+    background-color: $txt-color-white;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 5rem;
+  }
+  &__wrapper-right-p {
+    line-height: 1.4286rem;
+    color: rgb(116, 128, 138);
+    text-align: justify;
+    font-weight: $font-weight-400;
+  }
 }
 
 /*about-section page end*/
 
 /*project-section page start*/
 
-.project-section{
-
-margin-top: 30rem;
-height: 80vh;
-
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-&__wrapper{
-
-  height: 100%;
-  width: 60%;
-  margin-top: 2rem;
-display: flex;
-flex-direction: column;
-gap: 2rem;
-flex: 0 20%;
-
+.project-section {
+  margin-top: 15rem;
+  height: 80vh;
+  background: #f2f2f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__wrapper {
+    height: 100%;
+    width: 60%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex: 0 20%;
+  }
 }
-
-
-}
-
-
 
 /*project-section page end*/
+
+/*education-section page end*/
+
+.education-section {
+  margin-top: 35rem;
+  height: 40vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__wrapper {
+    height: 100%;
+    width: 60%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    flex: 0 20%;
+  }
+}
+
+/*education-section page end*/

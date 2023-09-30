@@ -134,6 +134,34 @@ body {
   color: #337ab7;
 }
 
+.education-card {
+  position: relative;
+  padding: 1.875rem;
+  gap: 1rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
+  background: #fff;
+  border-radius: 4px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.education-card span {
+  position: absolute;
+  display: block;
+  right: 5%;
+  top: 5%;
+}
+.education-card__h4 {
+  color: #74808a;
+}
+.education-card__text {
+  line-height: 1.4286rem;
+  color: rgb(116, 128, 138);
+  text-align: justify;
+  font-weight: 400;
+}
+
 .project-card {
   display: flex;
   justify-content: space-around;
@@ -355,8 +383,9 @@ body {
 /*about-section page end*/
 /*project-section page start*/
 .project-section {
-  margin-top: 30rem;
+  margin-top: 15rem;
   height: 80vh;
+  background: #f2f2f5;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -372,4 +401,25 @@ body {
   flex: 0 20%;
 }
 
-/*project-section page end*//*# sourceMappingURL=style.css.map */
+/*project-section page end*/
+/*education-section page end*/
+.education-section {
+  margin-top: 35rem;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.education-section__wrapper {
+  height: 100%;
+  width: 60%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  flex: 0 20%;
+}
+
+/*education-section page end*//*# sourceMappingURL=style.css.map */
