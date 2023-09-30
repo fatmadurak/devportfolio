@@ -1,0 +1,60 @@
+.project-card{
+
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+gap: 1rem;
+box-shadow: 0 3px 6px rgba(0,0,0,0.08), 0 3px 6px rgba(0,0,0,0.15);
+background: #fff;
+border-radius: 4px;
+width: 90%;
+
+&__image{
+
+flex:50%;
+
+
+    vertical-align: middle;
+
+}
+
+
+&__content{
+
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+
+}
+
+&__heading{
+
+
+
+}
+
+
+
+&__text{
+
+width: 80%;
+line-height: 1.4286rem;
+    color: rgb(116, 128, 138);
+    text-align: justify;
+    font-weight: 400;
+    text-align: center;
+}
+
+&__btn{
+
+
+color: $txt-color-darkblue;
+font-weight: 500;
+
+}
+
+}
