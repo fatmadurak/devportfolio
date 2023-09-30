@@ -177,31 +177,7 @@
 }
 
 /*about-section page end*/
-
-/*project-section page start*/
-
-.project-section {
-  margin-top: 12rem;
-  height: 80vh;
-  background: #f2f2f5;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  &__wrapper {
-    height: 100%;
-    width: 60%;
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    flex: 0 20%;
-  }
-}
-
-/*project-section page end*/
-
-/*education-section page end*/
+/*education-section page start*/
 
 .education-section {
   margin-top: 35rem;
@@ -225,3 +201,72 @@
 }
 
 /*education-section page end*/
+/*project-section page start*/
+
+.project-section {
+  margin-top: 12rem;
+  height: 80vh;
+  background: #f2f2f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__wrapper {
+    height: 100%;
+    width: 60%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex: 0 20%;
+  }
+}
+
+/*project-section page end*/
+
+/*skill-section page start*/
+
+
+.skill-section{
+
+  padding: 50px 10px;
+  text-align: center;
+  &__list{
+
+
+    display: block;
+    margin: 2rem auto;
+    padding: 0;
+    max-width: 50rem;
+
+
+  }
+
+
+  &__list li{
+
+   
+    display: inline-block;
+    margin: .4375rem;
+    padding: .3125rem .625rem;
+    background:#f2f2f5;;
+    list-style: none;
+    cursor: default;
+    color: $txt-color-lightblack;
+   
+
+    
+  }
+
+
+
+
+
+}
+
+
+
+
+
+/*skill-section page end*/
+

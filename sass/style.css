@@ -392,6 +392,27 @@ body {
 }
 
 /*about-section page end*/
+/*education-section page start*/
+.education-section {
+  margin-top: 35rem;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.education-section__wrapper {
+  height: 100%;
+  width: 60%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  flex: 0 20%;
+}
+
+/*education-section page end*/
 /*project-section page start*/
 .project-section {
   margin-top: 12rem;
@@ -413,24 +434,25 @@ body {
 }
 
 /*project-section page end*/
-/*education-section page end*/
-.education-section {
-  margin-top: 35rem;
-  height: 40vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+/*skill-section page start*/
+.skill-section {
+  padding: 50px 10px;
+  text-align: center;
 }
-.education-section__wrapper {
-  height: 100%;
-  width: 60%;
-  margin-top: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
-  flex: 0 20%;
+.skill-section__list {
+  display: block;
+  margin: 2rem auto;
+  padding: 0;
+  max-width: 50rem;
+}
+.skill-section__list li {
+  display: inline-block;
+  margin: 0.4375rem;
+  padding: 0.3125rem 0.625rem;
+  background: #f2f2f5;
+  list-style: none;
+  cursor: default;
+  color: #374054;
 }
 
-/*education-section page end*//*# sourceMappingURL=style.css.map */
+/*skill-section page end*//*# sourceMappingURL=style.css.map */
