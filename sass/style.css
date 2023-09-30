@@ -197,6 +197,17 @@ body {
 }
 
 /*layout*/
+.footer {
+  height: 20vh;
+  background-color: #337ab7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__copyright {
+  font-weight: 500;
+}
+
 .header {
   width: 100%;
   position: absolute;
@@ -383,7 +394,7 @@ body {
 /*about-section page end*/
 /*project-section page start*/
 .project-section {
-  margin-top: 15rem;
+  margin-top: 12rem;
   height: 80vh;
   background: #f2f2f5;
   display: flex;
