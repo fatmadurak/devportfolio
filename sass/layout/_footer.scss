@@ -1,18 +1,11 @@
-.footer{
+.footer {
+  height: 20vh;
+  background-color: $txt-color-darkblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-height: 20vh;
-background-color: $txt-color-darkblue;
-display: flex;
-justify-content: center;
-align-items: center;
-
-&__copyright{
-
-font-weight: 500;
-
-
-}
-
-
-
+  &__copyright {
+    font-weight: 500;
+  }
 }
