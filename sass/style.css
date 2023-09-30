@@ -363,6 +363,7 @@ body {
   align-items: center;
 }
 .project-section__wrapper {
+  height: 100%;
   width: 60%;
   margin-top: 2rem;
   display: flex;
